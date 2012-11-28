@@ -261,13 +261,13 @@ $app_name = idx($app_info, 'name', '');
               // Extract the pieces of info we need from the requests above
               $id = idx($auf, 'uid');
               $name = idx($auf, 'name');
-          ?><center>
+          ?>
           <li>
             <a href="https://www.facebook.com/<?php echo he($id); ?>" target="_top">
               <img src="https://graph.facebook.com/<?php echo he($id) ?>/picture?type=square" alt="<?php echo he($name); ?>">
               <?php echo he($name); ?>
             </a>
-          </li></center>
+          </li>
           <?php
             }
           ?>
