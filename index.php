@@ -216,9 +216,7 @@ $app_name = idx($app_info, 'name', '');
         <h1>Selamat datang, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
         <p class="tagline">
         Applikasi <a href="<?php echo he(idx($app_info, 'link'));?>" target="_top"><?php echo he($app_name); ?></a> di Facebook
-		
 		 <div id="share-app">
-          <p>Bagi Aplikasi Lewat:</p>
           <ul>
             <li>
               <a href="#" class="facebook-button" id="postToWall" data-url="<?php echo AppInfo::getUrl(); ?>">
