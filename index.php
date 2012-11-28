@@ -264,12 +264,12 @@ $app_name = idx($app_info, 'name', '');
               $id = idx($auf, 'uid');
               $name = idx($auf, 'name');
           ?>
-          <ul>
+          <li>
             <a href="https://www.facebook.com/<?php echo he($id); ?>" target="_top">
               <img src="https://graph.facebook.com/<?php echo he($id) ?>/picture?type=square" alt="<?php echo he($name); ?>">
               <?php echo he($name); ?>
             </a>
-          </ul>
+          </li>
           <?php
             }
           ?>
@@ -280,7 +280,10 @@ $app_name = idx($app_info, 'name', '');
     <?php
       }
     ?>
-
+<br />
+<br />
+<br />
+<br />
     <section id="guides" class="clearfix">
       <h1>The Best Indonesian Station Streaming With High Quality Sound</h1>
     </section>
