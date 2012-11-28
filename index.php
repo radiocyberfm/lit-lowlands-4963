@@ -216,9 +216,8 @@ $app_name = idx($app_info, 'name', '');
         <h1>Selamat datang, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
         <p class="tagline">
         Applikasi <a href="<?php echo he(idx($app_info, 'link'));?>" target="_top"><?php echo he($app_name); ?></a> di Facebook
-        </p>
-
-        <div id="share-app">
+		
+		 <div id="share-app">
           <p>Bagi Aplikasi Lewat:</p>
           <ul>
             <li>
@@ -233,6 +232,9 @@ $app_name = idx($app_info, 'name', '');
             </li>
           </ul>
         </div>
+		
+        </p>
+
       </div>
       <?php } else { ?>
       <div>
@@ -244,16 +246,16 @@ $app_name = idx($app_info, 'name', '');
 
     <section id="get-started">
       <p><img src="/images/logo.png"></p>
-    </section>
-
-    <?php
-      if ($user_id) {
-    ?>
+    </section>    
  <object width="100%" height="18" type="application/x-shockwave-flash" id="playerID" name="playerID" data="player.swf"><param name="allowfullscreen" value="false"><param name="allowscriptaccess" value="always"><param name="bgcolor" value="#FFFFFF"><param name="flashvars" value="type=sound&autostart=true&file=http://radio.for-our.info:8000/stream" allowfullscreen="false" quality="high"></object>
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman FB disini</h3>
 <iframe src="http://www.radiocyberfm.org/chat/index.php" width="710" height="350" scrolling="no" allowtransparency="true">
 								</iframe>
+								
+	<?php
+      if ($user_id) {
+    ?>
 
       <div class="list">
         <h3>Teman yang ikutan join</h3>
