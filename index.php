@@ -255,8 +255,7 @@ $app_name = idx($app_info, 'name', '');
 
       <div class="list">
         <h3>Teman yang ikutan join</h3>
-        <ul class="friends">
-          <?php
+                  <?php
             foreach ($app_using_friends as $auf) {
               // Extract the pieces of info we need from the requests above
               $id = idx($auf, 'uid');
@@ -271,8 +270,7 @@ $app_name = idx($app_info, 'name', '');
           <?php
             }
           ?>
-        </ul>
-      </div>
+         </div>
     </section>
 
     <?php
