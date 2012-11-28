@@ -255,21 +255,23 @@ $app_name = idx($app_info, 'name', '');
 
       <div class="list">
         <h3>Teman yang ikutan join</h3>
+		<li>
                   <?php
             foreach ($app_using_friends as $auf) {
               // Extract the pieces of info we need from the requests above
               $id = idx($auf, 'uid');
               $name = idx($auf, 'name');
           ?>
-          <li>
+          
             <a href="https://www.facebook.com/<?php echo he($id); ?>" target="_top">
               <img src="https://graph.facebook.com/<?php echo he($id) ?>/picture?type=square" alt="<?php echo he($name); ?>">
               <?php echo he($name); ?>
             </a>
-          </li>
+          
           <?php
             }
           ?>
+		  </li>
          </div>
     </section>
 
