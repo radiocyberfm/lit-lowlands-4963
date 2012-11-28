@@ -314,7 +314,6 @@ header .tagline {
 }
 
 #samples .inline li {
-  float: left;
   margin-left: 12px;
   overflow: hidden;
   padding: 0;
