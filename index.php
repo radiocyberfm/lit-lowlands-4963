@@ -280,10 +280,7 @@ $app_name = idx($app_info, 'name', '');
     <?php
       }
     ?>
-<br />
-<br />
-<br />
-<br />
+
     <section id="guides" class="clearfix">
       <h1>The Best Indonesian Station Streaming With High Quality Sound</h1>
     </section>
