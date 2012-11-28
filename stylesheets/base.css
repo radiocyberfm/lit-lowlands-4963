@@ -196,7 +196,6 @@ header .tagline {
 
 #guides ul li,
 #samples .list {
-  float: left;
   margin-right: 3px;
   width: 680px;
 }
