@@ -241,12 +241,11 @@ $app_name = idx($app_info, 'name', '');
       </div>
       <?php } ?>
     </header>
-
-    <section id="get-started">
+ <section id="get-started">
       <p><img src="/images/logo.png"></p>
     </section>    
     <section id="samples" class="clearfix">
-                 <h3>Chat Bareng Teman FB disini</h3>
+                 <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
 <iframe src="http://www.radiocyberfm.org/chat/index.php" width="710" height="350" scrolling="no" allowtransparency="true">
 								</iframe>
 								
