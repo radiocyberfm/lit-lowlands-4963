@@ -278,6 +278,7 @@ header .tagline {
   height: 161px;
   overflow: hidden;
   padding-top: 8px;
+  float: center;
 }
 
 #samples li {
@@ -314,6 +315,7 @@ header .tagline {
 }
 
 #samples .inline li {
+  float: left;
   margin-left: 12px;
   overflow: hidden;
   padding: 0;
