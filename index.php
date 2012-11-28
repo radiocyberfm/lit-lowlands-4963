@@ -256,7 +256,7 @@ $app_name = idx($app_info, 'name', '');
 								</iframe>
 
       <div class="list">
-        <h3>Teman yang menggunakan Aplikasi ini</h3>
+        <h3>Teman yang ikutan join</h3>
         <ul class="friends">
           <?php
             foreach ($app_using_friends as $auf) {
