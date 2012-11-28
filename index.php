@@ -245,7 +245,6 @@ $app_name = idx($app_info, 'name', '');
     <section id="get-started">
       <p><img src="/images/logo.png"></p>
     </section>    
- <object width="100%" height="18" type="application/x-shockwave-flash" id="playerID" name="playerID" data="player.swf"><param name="allowfullscreen" value="false"><param name="allowscriptaccess" value="always"><param name="bgcolor" value="#FFFFFF"><param name="flashvars" value="type=sound&autostart=true&file=http://radio.for-our.info:8000/stream" allowfullscreen="false" quality="high"></object>
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman FB disini</h3>
 <iframe src="http://www.radiocyberfm.org/chat/index.php" width="710" height="350" scrolling="no" allowtransparency="true">
@@ -283,6 +282,7 @@ $app_name = idx($app_info, 'name', '');
 
     <section id="guides" class="clearfix">
       <h1>The Best Indonesian Station Streaming With High Quality Sound</h1>
+	   <object width="100%" height="18" type="application/x-shockwave-flash" id="playerID" name="playerID" data="player.swf"><param name="allowfullscreen" value="false"><param name="allowscriptaccess" value="always"><param name="bgcolor" value="#FFFFFF"><param name="flashvars" value="type=sound&autostart=true&file=http://radio.for-our.info:8000/stream" allowfullscreen="false" quality="high"></object>
     </section>
   </body>
 </html>
