@@ -211,7 +211,7 @@ $app_name = idx($app_info, 'name', '');
     <header class="clearfix">
       <?php if (isset($basic)) { ?>
       <p id="picture" style="background-image: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal)"></p>
-
+<p><img src="/images/logo.png"></p>
       <div>
         <h1>Selamat datang, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
         <p class="tagline">
@@ -248,9 +248,7 @@ Quote: <strong>"<?php echo ($radio_info['description']);?>"</strong><br />
 Genre: <?php echo ($radio_info['genre']);?><br />
 </storng>
     </section>    
-	
-	 <p><img src="/images/logo.png"></p>
-	
+		 	
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
 <iframe src="http://www.radiocyberfm.org/chat/index.php" width="710" height="450" scrolling="no" allowtransparency="true">
