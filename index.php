@@ -244,11 +244,13 @@ $app_name = idx($app_info, 'name', '');
       <?php } ?>
     </header>
  <section id="get-started">
+ <div class='RJ_info'>
 <storng>
 Nama RJ : <?php echo ($radio_info['title']);?><br />
 Quote: <strong>"<?php echo ($radio_info['description']);?>"</strong><br />
 Genre: <?php echo ($radio_info['genre']);?><br />
 </storng>
+</div>
     </section>    
 		 	
     <section id="samples" class="clearfix">
