@@ -209,9 +209,11 @@ $app_name = idx($app_info, 'name', '');
     </script>
 
     <header class="clearfix">
+	
+	<p><img src="/images/logo.png"></p>
+	
       <?php if (isset($basic)) { ?>
       <p id="picture" style="background-image: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal)"></p>
-<p><img src="/images/logo.png"></p>
       <div>
         <h1>Selamat datang, <strong><?php echo he(idx($basic, 'name')); ?></strong></h1>
         <p class="tagline">
