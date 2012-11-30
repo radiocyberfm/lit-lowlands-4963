@@ -1,6 +1,5 @@
-<?php require_once('stream.php'); ?>
 <?php
-
+require_once('stream.php');
 /**
  * This sample app is provided to kickstart your experience using Facebook's
  * resources for developers.  This sample app provides examples of several
@@ -255,6 +254,12 @@ $app_name = idx($app_info, 'name', '');
     ?>
 
       <div class="list">
+	  
+Nama RJ : <?php echo ($radio_info['title']);?><br />
+Quote: <strong>"<?php echo ($radio_info['description']);?>"</strong><br />
+Genre: <?php echo ($radio_info['genre']);?><br />
+	  
+	  
         <h3>Teman yang ikutan join</h3>
         <ul class="friends">
           <?php
