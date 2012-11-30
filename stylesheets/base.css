@@ -338,6 +338,10 @@ header .tagline {
   text-indent: -9999px;
 }
 
+#RJ_info {
+	text-shadow: 1px 1px 2px silver;
+	color:#green;
+	}
 
 /* ------------------------------------------ */
 
@@ -356,7 +360,3 @@ header .tagline {
 .clearfix {
   zoom: 1;
 }
-.RJ_info {
-	text-shadow: 1px 1px 2px silver;
-	color:#green;
-	}
