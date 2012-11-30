@@ -242,6 +242,11 @@ $app_name = idx($app_info, 'name', '');
       <?php } ?>
     </header>
  <section id="get-started">
+ 
+Nama RJ : <?php echo ($radio_info['title']);?><br />
+Quote: <strong>"<?php echo ($radio_info['description']);?>"</strong><br />
+Genre: <?php echo ($radio_info['genre']);?><br />
+ 
       <p><img src="/images/logo.png"></p>
     </section>    
     <section id="samples" class="clearfix">
@@ -254,12 +259,7 @@ $app_name = idx($app_info, 'name', '');
     ?>
 
       <div class="list">
-	  
-Nama RJ : <?php echo ($radio_info['title']);?><br />
-Quote: <strong>"<?php echo ($radio_info['description']);?>"</strong><br />
-Genre: <?php echo ($radio_info['genre']);?><br />
-	  
-	  
+	    
         <h3>Teman yang ikutan join</h3>
         <ul class="friends">
           <?php
