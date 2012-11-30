@@ -208,10 +208,10 @@ $app_name = idx($app_info, 'name', '');
       }(document, 'script', 'facebook-jssdk'));
     </script>
 
-    <header class="clearfix">
-	
 	<p><img src="/images/logo.png"></p>
 	
+    <header class="clearfix">
+			
       <?php if (isset($basic)) { ?>
       <p id="picture" style="background-image: url(https://graph.facebook.com/<?php echo he($user_id); ?>/picture?type=normal)"></p>
       <div>
