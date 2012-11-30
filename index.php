@@ -242,13 +242,15 @@ $app_name = idx($app_info, 'name', '');
       <?php } ?>
     </header>
  <section id="get-started">
- 
+<storng>
 Nama RJ : <?php echo ($radio_info['title']);?><br />
 Quote: <strong>"<?php echo ($radio_info['description']);?>"</strong><br />
 Genre: <?php echo ($radio_info['genre']);?><br />
- 
-      <p><img src="/images/logo.png"></p>
+</storng>
     </section>    
+	
+	 <p><img src="/images/logo.png"></p>
+	
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
 <iframe src="http://www.radiocyberfm.org/chat/index.php" width="710" height="450" scrolling="no" allowtransparency="true">
