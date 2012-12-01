@@ -253,11 +253,11 @@ Genre: <?php echo ($radio_info['genre']);?><br />
     </section>    
 	
 	
-	<h3 style="text-align: center;">RCTI Online Streaming Server 2</h3>
+	<h3 style="text-align: center;">RCTI Online Streaming</h3>
 	<div style="text-align: center;">
 	<div style="margin: 1px;">
 	<div class="smallfont" style="margin-bottom: 1px;">
-	<input onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Sembunyikan RCTI Streaming Server 2'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'RCTI TV Streaming Server 2'; }" style="font-size: 14px; margin: 0px; padding: 0px; width: auto;" type="button" value="RCTI TV Streaming Server 2" />
+	<input onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Sembunyikan RCTI Streaming'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'RCTI TV Streaming'; }" style="font-size: 14px; margin: 0px; padding: 0px; width: auto;" type="button" value="RCTI TV Streaming" />
 	</div>
 	<div class="alt2">
 	<div style="display: none;">
