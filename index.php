@@ -258,7 +258,7 @@ Genre: <?php echo ($radio_info['genre']);?><br />
 								</iframe>									    
         <h3>Teman yang ikutan join</h3>
 
-		<div class="fb-like-box" data-href="https://www.facebook.com/radiocyberfm" data-width="780" data-show-faces="true" data-stream="false" data-header="false"></div>
+		<div class="fb-like-box" data-href="https://www.facebook.com/radiocyberfm" data-width="720" data-show-faces="true" data-stream="false" data-header="false"></div>
 		
     </section>
 
