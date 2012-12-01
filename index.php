@@ -255,38 +255,12 @@ Genre: <?php echo ($radio_info['genre']);?><br />
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
 <iframe src="http://www.radiocyberfm.org/chat/index.php" width="710" height="450" scrolling="no" allowtransparency="true">
-								</iframe>
-								
-	<?php
-      if ($user_id) {
-    ?>
-
-      <div class="friends">
-	    
+								</iframe>									    
         <h3>Teman yang ikutan join</h3>
-        <ul class="friends">
-          <?php
-            foreach ($app_using_friends as $auf) {
-              // Extract the pieces of info we need from the requests above
-              $id = idx($auf, 'uid');
-              $name = idx($auf, 'name');
-          ?>
-          <li>
-            <a href="https://www.facebook.com/<?php echo he($id); ?>" target="_top">
-              <img src="https://graph.facebook.com/<?php echo he($id) ?>/picture?type=square" alt="<?php echo he($name); ?>">
-              <?php echo he($name); ?>
-            </a>
-          </li>
-          <?php
-            }
-          ?>
-        </ul>
-      </div>
-    </section>
 
-    <?php
-      }
-    ?>
+		<div class="fb-like-box" data-href="https://www.facebook.com/radiocyberfm" data-width="780" data-show-faces="true" data-stream="false" data-header="false"></div>
+		
+    </section>
 
     <section id="guides" class="clearfix">
       <h1>The Best Indonesian Station Streaming With High Quality Sound</h1> 
