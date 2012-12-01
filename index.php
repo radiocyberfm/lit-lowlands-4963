@@ -257,7 +257,7 @@ Genre: <?php echo ($radio_info['genre']);?><br />
 	<div style="text-align: center;">
 	<div style="margin: 1px;">
 	<div class="smallfont" style="margin-bottom: 1px;">
-	<input onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Online Streaming'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Online Streaming'; }" style="font-size: 14px; margin: 0px; padding: 0px; width: auto;" type="button" value="RCTI TV Streaming" />
+	<input onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Online Streaming'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Online Streaming'; }" style="font-size: 14px; margin: 0px; padding: 0px; width: auto;" type="button" value="TV Streaming" />
 	</div>
 	<div class="alt2">
 	<div style="display: none;">
