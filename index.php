@@ -262,7 +262,7 @@ Genre: <?php echo ($radio_info['genre']);?><br />
 	<div class="alt2">
 	<div style="display: none;">
 	<div style="background: none repeat scroll 0% 0% #ffffff; padding: 10px; text-align: justify;">
-	<center><iframe src='http://www.9stream.com/embedplayer.php?width=650&height=450&channel=1008&autoplay=true' frameborder='0' marginheight='0' marginwidth='0' scrolling='no' width='650' height='450'></iframe><br /> Reload Browser Jika RCTI Tidak Tampil </center></div></div></div></div></div>
+	<center><IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=650 HEIGHT=450 SRC="http://embed.hdfoots.com/live1.php"></IFRAME><br /> Reload Browser Jika RCTI Tidak Tampil </center></div></div></div></div></div>
 		 	
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
