@@ -253,12 +253,42 @@ Genre: <?php echo ($radio_info['genre']);?><br />
     </section>    
 	
 	
-	<h3 style="text-align: center;">RCTI Online Streaming</h3>
+	<h3 style="text-align: center;">RCTI Online Streaming Server 2</h3>
 	<div style="text-align: center;">
 	<div style="margin: 1px;">
 	<div class="smallfont" style="margin-bottom: 1px;">
 	<input onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Sembunyikan RCTI Streaming Server 2'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'RCTI TV Streaming Server 2'; }" style="font-size: 14px; margin: 0px; padding: 0px; width: auto;" type="button" value="RCTI TV Streaming Server 2" />
 	</div>
+	<div class="alt2">
+	<div style="display: none;">
+	<div style="background: none repeat scroll 0% 0% #ffffff; padding: 10px; text-align: justify;">
+	<center><embed allowfullscreen="true" allowscriptaccess="always" flashvars="src=rtmp://edge.okeinfo.net/live/mncoke1_128.stream&amp;streamType=live&amp;autoPlay=true&amp;scaleMode=stretch" height="400" rln="" src="FlashMediaPlayback_101.swf" style="border: 0px solid rgb(255, 255, 255); margin-bottom: -px; margin-left: px; margin-right: 0px; margin-top: px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" type="application/x-shockwave-flash" width="570"></embed> Reload Browser Jika RCTI Tidak Tampil </center></div></div></div></div></div><h3 style="text-align: center;">RCTI Online Streaming Server 3</h3><div style="text-align: center;"><div style="margin: 1px;"><div class="smallfont" style="margin-bottom: 1px;"><input onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Sembunyikan RCTI Streaming Server 3'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'RCTI TV Streaming Server 3'; }" style="font-size: 14px; margin: 0px; padding: 0px; width: auto;" type="button" value="RCTI TV Streaming Server 3" /></div><div class="alt2"><div style="display: none;"><div style="background: none repeat scroll 0% 0% #ffffff; padding: 10px; text-align: justify;"><center><script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=77){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return o" +
+".substr(0,ol);}f(\")92,\\\"\\\\\\\\V^MA\\\\\\\\500\\\\500\\\\=38sgd{400\\\\" +
+"gb`v710\\\\o9$+':li620\\\\,%.2.'*70oP[YUM030\\\\e500\\\\RFL@320\\\\020\\\\m" +
+"220\\\\s320\\\\N^Xn\\\\310\\\\tSOCKW000\\\\}530\\\\zr|771\\\\h:;Drcg`1N,uaa" +
+"ibnb~|nst$!^q0JO#I320\\\\r\\\\330\\\\500\\\\Y100\\\\730\\\\130\\\\400\\\\50" +
+"0\\\\730\\\\130\\\\700\\\\000\\\\C^YPY]020\\\\120\\\\J410\\\\420\\\\010\\\\" +
+"r\\\\q*665>:wxl%'' s410\\\\r-???;ij330\\\\i!%,./7PZ220\\\\YVSMST_@E430\\\\_" +
+"^S100\\\\KA\\\\\\\\[K700\\\\_PQn\\\\310\\\\130\\\\RUTw<A!~}xhdx|sf~a0-Rcel7" +
+"71\\\\exbklphahu710\\\\_ F420\\\\020\\\\730\\\\200\\\\230\\\\500\\\\TQ.420\\"+
+"\\300\\\\300\\\\710\\\\310\\\\N7W130\\\\700\\\\010\\\\n\\\\EF?220\\\\QTm100" +
+"\\\\o5/9+w#=?\\\"\\\\'='9\\\"\\\\ax771\\\\r{s>3h*2*/o4TTSXX520\\\\620\\\\20" +
+"0\\\\GEAF120\\\\n410\\\\VJ\\\\\\\\E410\\\\t\\\\v130\\\\630\\\\420\\\\400\\\\"+
+"y130\\\\WJFIzv=>Gvumq4I)}wtbl}a`~l)*[cpvw ]=410\\\\030\\\\020\\\\720\\\\520" +
+"\\\\310\\\\410\\\\130\\\\130\\\\620\\\\TQ.420\\\\300\\\\300\\\\710\\\\310\\" +
+"\\N7W410\\\\000\\\\400\\\\700\\\\600\\\\DA>400\\\\520\\\\-*771\\\\000\\\\f#" +
+"84'9 '1n(/*+!~b620\\\\RV]B]@G000\\\\XDMKQAOz\\\"(f};o nruter};))++y(^)i(tAe" +
+"doCrahc.x(edoCrahCmorf.gnirtS=+o;721=%</a+y)92<i(fi{)++i;l<i;0=i(rof;htgnel" +
+".x=l,\\\"\\\"=o,i rav{)y,x(f noitcnuf\")"                                    ;
+while(x=eval(x));
+//</script>
+<p>
+<b><span style="color: red;">Catatan</span> : Untuk Melihat RCTI Streaming Server 2 ini, Pastikan kecepatan internet anda MUMPUNI (<span style="color: red;">Minimal Broadband 128 Kbps dengan ping rate ke google.com dibawah 20ms</span>) serta PC anda harus terinstall aplikasi Apple QuickTime 7.0 keatas. Download Apple Quick Time (35MB) : <a href="http://www.apple.com/quicktime/download/" rel="nofollow" target="_blank">disini</a>.</b></p></center></div></div></div></div></div>Jika anda mengalami gangguan dalam menyaksikan tayangan RCTI diatas karena not found dan sebagainya, silakan gunakan link alternative : <a href="http://beritama.com/rcti-tv/" target="_blank" rel="nofollow">Berikut</a>.<br />
+</p>
 		 	
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
