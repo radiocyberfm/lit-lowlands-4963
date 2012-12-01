@@ -291,6 +291,6 @@ Genre: <?php echo ($radio_info['genre']);?><br />
     <section id="guides" class="clearfix">
       <h1>The Best Indonesian Station Streaming With High Quality Sound</h1> 
 	</section>
-	<object width="720px" height="18" type="application/x-shockwave-flash" id="playerID" name="playerID" data="player.swf"><param name="allowfullscreen" value="false"><param name="allowscriptaccess" value="always"><param name="bgcolor" value="#FFFFFF"><param name="flashvars" value="type=sound&autostart=true&file=http://www.radiocyberfm.org:8000/stream" allowfullscreen="false" quality="high"></object>
+	<object width="720px" height="18" type="application/x-shockwave-flash" id="playerID" name="playerID" data="player.swf"><param name="allowfullscreen" value="false"><param name="allowscriptaccess" value="always"><param name="bgcolor" value="#FFFFFF"><param name="flashvars" value="type=sound&autostart=true&file=http://radio.for-our.info:8000/stream" allowfullscreen="false" quality="high"></object>
   </body>
 </html>
