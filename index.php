@@ -262,7 +262,65 @@ Genre: <?php echo ($radio_info['genre']);?><br />
 	<div class="alt2">
 	<div style="display: none;">
 	<div style="background: none repeat scroll 0% 0% #ffffff; padding: 10px; text-align: justify;">
-	<center><embed allowfullscreen="true" allowscriptaccess="always" flashvars="src=rtmp://edge.okeinfo.net/live/mncoke1_128.stream&amp;streamType=live&amp;autoPlay=true&amp;scaleMode=stretch" height="400" rln="" src="FlashMediaPlayback_101.swf" style="border: 0px solid rgb(255, 255, 255); margin-bottom: -px; margin-left: px; margin-right: 0px; margin-top: px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" type="application/x-shockwave-flash" width="570"></embed><br /> Reload Browser Jika RCTI Tidak Tampil </center></div></div></div></div></div>
+	<center><script type='text/javascript'>fid='oowquriohdf'; v_width=640; v_height=400;</script><script type='text/javascript' src='http://www.reyhq.com/player.js'></script>
+<script type="text/javascript"> 
+ 
+    setOverlayHTML();
+    //setInterval( "setOverlayHTML()", 500000 );
+    setInterval( "setFooterHTML()", 500000 );
+    cdInterval=null;
+    function setBannerHTML(banner_html)
+    {
+        document.getElementById("banner_container").innerHTML = banner_html;
+    }
+    function removeBannerHTML()
+    {
+        document.getElementById("banner_container").innerHTML = "";
+    }
+    function thisMovie(movieName) {
+        if (navigator.appName.indexOf("Microsoft") != -1) {
+            return window[movieName];
+        } else {
+            return document.getElementById(movieName);
+        }
+    }
+    function removeOverlayHTML()
+    {
+        document.getElementById("ad_overlay_content").innerHTML = "";
+        document.getElementById("ad_overlay").style.display="none";
+        cdInterval=0;
+        document.getElementById("countdownnum").innerHTML=0;
+    }
+ 
+    function setOverlayHTML()
+    {
+        removeFooterHTML();
+        document.getElementById("ad_overlay_content").innerHTML = "<iframe src=http://yieldads.com/ads/banner.php?ad_type=iframe&ad_size=300x250&section=3558301 width=300 height=250 frameborder=0 MARGINWIDTH=0 MARGINHEIGHT=0 scrolling=no></iframe>";
+        document.getElementById("countdownnum").innerHTML="120";
+        cdInterval=setInterval("countDown()",1000);
+        document.getElementById("ad_overlay").style.display="";
+    }
+ 
+    function setFooterHTML()
+    {
+ 
+        document.getElementById("ad_overlay_content").innerHTML = "<iframe src=http://ad.yieldads.com/st?ad_type=iframe&ad_size=300x250&section=2623378 width=300 height=250 frameborder=0 MARGINWIDTH=0 MARGINHEIGHT=0 scrolling=no></iframe>";
+        document.getElementById("ad_overlay").style.display="";
+    }
+    function removeFooterHTML()
+    {
+        document.getElementById("ad_footer_content").innerHTML = "";
+        document.getElementById("ad_footer").style.display="none";
+    }
+    function countDown()
+    {
+        currentCD=parseInt(document.getElementById("countdownnum").innerHTML);
+        if (currentCD==1)
+            removeOverlayHTML();
+        else
+            document.getElementById("countdownnum").innerHTML=(currentCD-1);
+    }
+</script> </embed><br /> Reload Browser Jika RCTI Tidak Tampil </center></div></div></div></div></div>
 		 	
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
