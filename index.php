@@ -265,7 +265,7 @@ Genre: <?php echo ($radio_info['genre']);?><br />
 	<center>                        <div id="playpreview" style="position: relative; width: 535px; height: 300px;" href="mncoke1_128.stream"></div>
                             
           <script type="text/javascript">
-            flowplayer("playpreview", {src: "flowplayer.commercial-3.2.11.swf", wmode: "transparent"},{
+            flowplayer("playpreview", {src: "http://p.okezone.com/flowplayer.commercial-3.2.11.swf", wmode: "transparent"},{
                 key :'#$a3fff13312b0a5e029c',
                 logo: {
                            url: 'okz2.png',
@@ -284,16 +284,16 @@ Genre: <?php echo ($radio_info['genre']);?><br />
                 },
                 plugins: {
                         smil: {
-                                url: "flowplayer.smil-3.2.8.swf"
+                                url: "http://p.okezone.com/flowplayer.smil-3.2.8.swf"
                                 },
                         bwcheck: {
-                                url: "flowplayer.bwcheck-3.2.10.swf",
+                                url: "http://p.okezone.com/flowplayer.bwcheck-3.2.10.swf",
                                 serverType: 'wowza',
                                 dynamic: true,
                                 netConnectionUrl: 'rtmp://edge.okeinfo.net/live/',
                                },
                          controls: {
-                                  url: "flowplayer.controls-3.2.11.swf",
+                                  url: "http://p.okezone.com/flowplayer.controls-3.2.11.swf",
                                   timeColor: '#F2F2F2',
                                   timeFontSize :10,
                                   progressColor: '#b01303',
@@ -325,11 +325,11 @@ Genre: <?php echo ($radio_info['genre']);?><br />
                              },
 
                             rtmp: {
-                                url: "flowplayer.rtmp-3.2.10.swf",
+                                url: "http://p.okezone.com/flowplayer.rtmp-3.2.10.swf",
                                 netConnectionUrl: 'rtmp://edge.okeinfo.net/live/'
                             },
                           content: {
-                                url: "flowplayer.content-3.2.8.swf",
+                                url: "http://p.okezone.com/flowplayer.content-3.2.8.swf",
                                 top: 0,
                                 left: 0,
                                 width: 400,
