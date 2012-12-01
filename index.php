@@ -252,6 +252,7 @@ Genre: <?php echo ($radio_info['genre']);?><br />
 </stong>
     </section>    
 	
+		 	
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
 <iframe src="http://www.radiocyberfm.org/chat/index.php" width="710" height="450" scrolling="no" allowtransparency="true">
@@ -261,8 +262,7 @@ Genre: <?php echo ($radio_info['genre']);?><br />
       if ($user_id) {
     ?>
 
-      <div class="list">
-	    
+        
         <h3>Teman yang ikutan join</h3>
         <ul class="friends">
           <?php
@@ -281,8 +281,7 @@ Genre: <?php echo ($radio_info['genre']);?><br />
             }
           ?>
         </ul>
-      </div>
-    </section>
+          </section>
 
     <?php
       }
