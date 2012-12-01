@@ -252,18 +252,6 @@ Genre: <?php echo ($radio_info['genre']);?><br />
 </stong>
     </section>    
 	
-	
-	<h3 style="text-align: center;">Online Streaming</h3>
-	<div style="text-align: center;">
-	<div style="margin: 1px;">
-	<div class="smallfont" style="margin-bottom: 1px;">
-	<input onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Online Streaming'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Online Streaming'; }" style="font-size: 14px; margin: 0px; padding: 0px; width: auto;" type="button" value="TV Streaming" />
-	</div>
-	<div class="alt2">
-	<div style="display: none;">
-	<div style="background: none repeat scroll 0% 0% #ffffff; padding: 10px; text-align: justify;">
-	<center><IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=650 HEIGHT=450 SRC="http://embed.hdfoots.com/live2.php"></IFRAME><br /> Reload Browser Jika Streaming Tidak Tampil </center></div></div></div></div></div>
-		 	
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
 <iframe src="http://www.radiocyberfm.org/chat/index.php" width="710" height="450" scrolling="no" allowtransparency="true">
