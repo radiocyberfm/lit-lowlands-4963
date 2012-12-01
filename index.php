@@ -262,7 +262,8 @@ Genre: <?php echo ($radio_info['genre']);?><br />
 	<div class="alt2">
 	<div style="display: none;">
 	<div style="background: none repeat scroll 0% 0% #ffffff; padding: 10px; text-align: justify;">
-	<center><embed allowfullscreen="true" allowscriptaccess="always" flashvars="src=rtmp://edge.okeinfo.net/live/mncoke1_128.stream&amp;streamType=live&amp;autoPlay=true&amp;scaleMode=stretch" height="400" rln="" src="FlashMediaPlayback_101.swf" style="border: 0px solid rgb(255, 255, 255); margin-bottom: -px; margin-left: px; margin-right: 0px; margin-top: px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" type="application/x-shockwave-flash" width="570"></embed><br /> Reload Browser Jika RCTI Tidak Tampil </center></div></div></div></div></div>
+	<center><iframe frameborder="0" height="650" name="" scrolling="no" src="http://bagan.tv/index.php?c=130" style="margin-left: -35px; margin-top: -115px;" width="580">
+</div></div></center></iframe><br /> Reload Browser Jika RCTI Tidak Tampil </center></div></div></div></div></div>
 		 	
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
