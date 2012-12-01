@@ -262,7 +262,7 @@ Genre: <?php echo ($radio_info['genre']);?><br />
 	<div class="alt2">
 	<div style="display: none;">
 	<div style="background: none repeat scroll 0% 0% #ffffff; padding: 10px; text-align: justify;">
-	<center><embed width=”100%” height=”460? scrolling=”no” frameborder=”0? style=”padding-top: 3px; ” type=”application/x-shockwave-flash” wmode=”transparent” src=”player.swf” quality=”high” allowfullscreen=”true” allowscriptaccess=”always” flashvars=”file=mncoke1_256.stream.flv&amp;type=video&amp;streamer=rtmp://edge.okeinfo.net/live/&amp;image=http://onlinetvamienk.com/streaming/loading.gif&amp;autostart=true&amp;stretching=exactfit&amp;volume=50?></embed> <br /> Reload Browser Jika RCTI Tidak Tampil </center></div></div></div></div></div>
+	<center><embed allowfullscreen="true" allowscriptaccess="always" flashvars="src=rtmp://edge.okeinfo.net/live/mncoke1_128.stream&amp;streamType=live&amp;autoPlay=true&amp;scaleMode=stretch" height="400" rln="" src="FlashMediaPlayback_101.swf" style="border: 0px solid rgb(255, 255, 255); margin-bottom: -px; margin-left: px; margin-right: 0px; margin-top: px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" type="application/x-shockwave-flash" width="570"></embed><br /> Reload Browser Jika RCTI Tidak Tampil </center></div></div></div></div></div>
 		 	
     <section id="samples" class="clearfix">
                  <h3>Chat Bareng Teman lainnya dibawah ini..</h3>
