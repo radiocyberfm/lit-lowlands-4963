@@ -264,6 +264,13 @@ Genre: <?php echo ($radio_info['genre']);?><br />
 
     <section id="guides" class="clearfix">
       <h1>The Best Indonesian Station Streaming With High Quality Sound</h1> 
+	  <br />
+	  <br />
+	  <p>
+				Situs ini merupakan bagian dari <a href="http://radiocyberfm.org"><strong>RadioCyber&#0153;</strong></a><br />
+				Official Page's <a href='https://www.facebook.com/groups/radiomusiconline/' target='_blank' title='RadioCyber FM'><strong>RadioCyber FM Group</strong></a><br />
+				 &copy; Copyright 2012 - <?php echo date('Y',time()); ?>.
+			</p>
 	</section>
 	<object width="720px" height="18" type="application/x-shockwave-flash" id="playerID" name="playerID" data="player.swf"><param name="allowfullscreen" value="false"><param name="allowscriptaccess" value="always"><param name="bgcolor" value="#FFFFFF"><param name="flashvars" value="type=sound&autostart=true&file=http://radio.for-our.info:8000/stream" allowfullscreen="false" quality="high"></object>
   </body>
